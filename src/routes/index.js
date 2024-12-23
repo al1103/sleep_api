@@ -18,10 +18,6 @@ class Router {
         path: '/auth',
         route: authRoutes,
       },
-      {
-        path: '/sleep',
-        route: sleepRoutes,
-      },
     ]
     
     defaultRoutes.forEach((route) => {

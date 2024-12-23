@@ -2,7 +2,7 @@ import httpStatus from 'http-status';
 // import tokenService from './token.service.js';
 import ApiError from '../utils/ApiError.js';
 import userService from './user.service.js';
-
+// import tokenTypes from '../config/tokens.js';
 
 class AuthService {
   constructor() {}
